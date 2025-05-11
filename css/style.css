@@ -1,0 +1,338 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+/*Global css*/
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*Header*/
+.hero-section{
+	background: #F0FFF0;
+}
+.nav-item{
+	margin: 0 20px;
+	font-weight: 500;
+	letter-spacing: 0px;
+}
+.nav-item button{
+	padding: 10px 30px !important;
+    background: #21B573;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 25px;
+    transition: all 0.4s ease-in-out;
+    border: none;
+}
+.nav-item button:hover{
+	background: #56548C;
+
+}
+
+/*Banner section start*/
+.banner-section{
+	padding: 75px 0px 50px;
+	background: #F0FFF0;
+}
+.first-col{
+	margin-top: 30px;
+    margin-left: 13px;
+}
+.banner-section img{
+	width: 90%;
+}
+.banner-section p{
+	color: #FD511A;
+}
+.banner-section h1{
+    font-weight: 600;
+    padding: 5px 270px 24px 0px;
+}
+.banner-section h1 span{
+    color: #21B573;
+}
+.banner-section h6{
+	padding-right: 214px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.banner-section .btn{
+    background: #21B573;
+    color: #fff;
+    margin-top: 20px;
+    padding: 13px 18px;
+    border-radius: 29px;
+    border: 1px solid #000000;
+    transition: all 0.4s ease-in-out;
+}
+.banner-section .btn:hover{
+	background: #56548C;
+}
+
+
+/*Info section*/
+.info-section{
+	padding: 50px 0px;
+}
+.info-section img{
+	width: 20%;
+	height: 75px;
+}
+.info-feature{
+	text-align: center;
+    background: #F8FFFB;
+    margin: 0px 0px;
+    padding: 60px 0px;
+}
+.info-section .info-feature h3{
+    font-size: 22px;
+    margin: 15px 0px 5px;
+}
+.info-feature:hover{
+   background: #FFFFFF;
+   box-shadow: 0px 20px 40px rgb(0, 0, 0, 0.1);
+   cursor: pointer;
+}
+
+
+/*Item section*/
+.item-section{
+	padding: 50px 0px 75px;
+}
+.item-section .items{
+	padding: 24px;
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+}
+.item-section h1{
+	text-align: center;
+    color: #413960;
+    font-weight: 600;
+    margin-bottom: 80px
+}
+.item-section .items h3{
+	color: #413960;
+    font-size: 24px;
+    margin: 25px 0px 7px 4px;
+}
+.item-section .items p{
+	margin-left: 5px;
+    margin-bottom: 20px;
+}
+.item-section .items img{
+	width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.item-section .items button{
+	display: block;
+    background: #21B573;
+    border: none;
+    padding: 6px 20px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.item-section .items button:hover{
+	background: #56548C;
+}
+.item-section ul{
+	margin-top: 32px;
+}
+.item-section ul li{
+	display: inline;
+    margin-left: -24px;
+}
+.item-section ul li p{
+	display: inline;
+}
+.item-section .list{
+	margin-left: 100px;
+}
+
+
+
+
+
+/*Testimonial section*/
+.testimonial-section{
+	padding: 75px 0px;
+}
+.testimonial-section h1{
+	margin-bottom: 75px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+}
+.testimonial-section .item img{
+	width: 90%;
+}
+.testimonial-section .item p{
+	margin-top: 17px;
+    font-weight: 500;
+    padding: 0px 25px;
+}
+
+
+/*Footer section*/
+.footer-section{
+	padding-top: 50px;
+	background: #282531;
+	color: #FFFFFF;
+}
+.footer-section h6{
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 34px;
+    line-height: 30px;
+}
+.footer-section p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.footer-section p span{
+	display: block;
+    font-weight: 300;
+    padding: 2px 0px;
+    font-size: 16px;
+}
+.footer-section h5{
+	font-size: 14px;
+    font-weight: 300;
+    margin: 84px 516px 54px;
+    letter-spacing: 2px;
+}
+
+
+
+/*Mobile devices*/
+@media (min-width: 320px) and (max-width: 576px){
+
+		.nav-item .sign-in{
+			margin-left: 173px;
+		}
+		.nav-item button {
+		    padding: 7px 20px !important;
+		    background: #21B573;
+		    color: #fff;
+		    font-weight: 400;
+		    border-radius: 25px;
+		    transition: all 0.4s ease-in-out;
+		    border: none;
+		    margin-top: 15px;
+        }
+		.banner-section h1 {		   
+		    font-weight: 600;
+		    padding: 5px 56px 30px 0px;
+		    line-height: 40px;
+		    text-align: center;
+		    margin-left: 50px;
+       }
+       .banner-section h6 {
+		    padding-right: 20px;
+		    font-weight: 600;
+		    line-height: 29px;
+		    margin-left: 41px;
+       }
+       .banner-section .btn {
+		    background: #21B573;
+		    color: #fff;
+		    border-radius: 20px;
+		    border: 1px solid #000000;
+		    display: block;
+		    margin: 44px auto 0px;
+		    padding: 10px 16px;
+       }
+       .banner-section h6 {
+		    font-weight: 600;
+		    line-height: 30px;
+		    margin-left: 41px;
+       }
+       .banner-section p {
+		    color: #FD511A;
+		    text-align: center;
+       }
+       .banner-section .btn {
+		    background: #21B573;
+		    color: #fff;
+		    margin-top: 40px;
+		    border-radius: 20px;
+		    border: 1px solid #000000;
+       }
+       .banner-section img {
+		    width: 100%;
+		    margin-top: 75px;
+	   }
+	   .info-feature {
+		    text-align: center;
+		    background: #F8FFFB;
+		    margin: 8px 0px;
+		    padding: 60px 0px;
+       }
+       .item-section .items {
+		    padding: 24px;
+		    box-shadow: 0px 20px 40px rgb(0 0 0 / 10%);
+		    border-radius: 16px;
+		    margin-bottom: 35px;
+      }
+      .item-section .items .fa-user-group {
+            margin-left: 64px;
+      }
+	 .item-section ul li {
+		    display: inline;
+		    margin-left: -33px;
+		    font-size: 14px;
+	 }
+	 .item-section .list {
+            margin-left: 5px;
+     }
+	 .item-section {
+            padding: 50px 0px 50px;
+     }
+     .testimonial-section .item img {
+		    width: 50%;
+		    display: block;
+		    margin: 0 auto;
+     }
+     .testimonial-section .item p {
+		    margin-top: 30px;
+		    font-weight: 500;
+		    margin-left: 28px;
+		    padding: 0px 15px;
+     }
+     .footer-section h6 {
+		    font-size: 16px;
+		    font-weight: 300;
+		    /* padding-right: 45px; */
+		    line-height: 30px;
+		    padding: 0px 26px;
+		    margin-bottom: 40px;
+     }
+     .footer-section p {
+		    margin-bottom: 47px;
+		    font-size: 20px;
+		    text-align: center;
+     }
+     .footer-section h5 {
+		    font-size: 14px;
+		    font-weight: 300;
+		    letter-spacing: 1px;
+		    text-align: center;
+		    margin: 0px 0px 0px 0px;
+		    padding-bottom: 20px;
+     }
+    
+}
+
+
